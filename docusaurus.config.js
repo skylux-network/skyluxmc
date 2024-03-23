@@ -59,7 +59,8 @@ const config = {
       },
       colorMode: {
         defaultMode: 'light',
-        disableSwitch: true
+        disableSwitch: false,
+        respectPrefersColorScheme: true
       },
       announcementBar: {
         id: 'support_us',
