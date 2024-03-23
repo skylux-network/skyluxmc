@@ -1,0 +1,57 @@
+:root {
+  --ifm-color-primary: rgb(0, 144, 144);
+  --ifm-color-primary-dark: rgb(51, 255, 255);
+  --ifm-color-primary-darker: rgb(34, 255, 255);
+  --ifm-color-primary-darkest: rgb(0, 238, 238);
+  --ifm-color-primary-light: rgb(119, 255, 255);
+  --ifm-color-primary-lighter: rgb(119, 255, 255);
+  --ifm-color-primary-lightest: rgb(119, 255, 255);
+  --ifm-footer-background-color: rgb(255, 255, 255);
+  --ifm-code-font-size: 95%;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: rgb(0, 170, 170);
+  --ifm-color-primary-dark: rgb(0, 153, 153);
+  --ifm-color-primary-darker: rgb(0, 144, 144);
+  --ifm-color-primary-darkest: rgb(0, 119, 119);
+  --ifm-color-primary-light: rgb(0, 187, 187);
+  --ifm-color-primary-lighter: rgb(0, 195, 195);
+  --ifm-color-primary-lightest: rgb(0, 221, 221);
+  --ifm-footer-background-color: rgb(9, 9, 11);
+  --ifm-navbar-background-color: rgb(9, 9, 11);
+  --ifm-background-color: rgb(9, 9, 11) !important;
+  --ifm-menu-color-background-active: rgba(0, 170, 170, 0.093);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.menu {
+  font-size: 95%;
+}
+
+.menu::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.theme-doc-sidebar-container {
+  border-right: none !important;
+}
+
+.table-of-contents__left-border {
+  border-left: none;
+}
+
+.pagination-nav__link {
+  border: none;
+}
+
+[class*="title_node_modules-@docusaurus-theme-classic-lib-theme-BlogPostItem-Header-Title-styles-module"] {
+  text-transform: capitalize;
+}
+
+[class*="sidebarItemLink_node_modules-@docusaurus-theme-classic-lib-theme-BlogSidebar-Desktop-styles-module"] {
+  text-transform: capitalize;
+}
