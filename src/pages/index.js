@@ -9,7 +9,7 @@ const Index = () => {
     return (
         <div>
             <Header appName="Skylux MC" />
-            <section class="lg:px-18 pos-r pt-4 px-8">
+            <section class="lg:px-18 pos-r pt-4 px-4">
                 <div class="lg:py-18 mx-auto py-4 sm:py-16">
                     <div class="ta-c">
                         <h1 class="fs-6xl">A Reabertura Da Skylux!</h1>
