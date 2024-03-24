@@ -32,7 +32,7 @@ const Header = ({ appName }) => {
                             className="c-p ai-c bg-transparent cg-2 d-f dim-9 fw-600 jc-c rad-1"
                             onClick={toggleDropdown}
                         >
-                            {showDropdown ? <IoClose className="fs-0 dim-4" /> : <IoMenu className="fs-0 dim-4" />}
+                            {showDropdown ? <IoClose className="fs-0" size={30} /> : <IoMenu className="fs-0" size={30} />}
                         </button>
                     </div>
                 </div>
