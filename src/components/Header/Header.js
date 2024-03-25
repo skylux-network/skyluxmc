@@ -21,7 +21,7 @@ const Header = ({ appName }) => {
     });
 
     return (
-        <header className="bg-transparent d-f fw-w py-1 sm:fw-nw sm:jc-s sm:py-0 w-full zi-50">
+        <header className="d-f fw-w py-1 sm:fw-nw sm:jc-s sm:py-0 w-full zi-50">
             <nav className="lg:px-3 mx-auto pos-r px-1 sm:ai-c sm:d-f sm:jc-b sm:px-2 w-full">
                 <div className="ai-c d-f jc-b">
                     <h1 className="f-none fs-lg fw-600 t-d-lead-1" href="#">
@@ -29,7 +29,7 @@ const Header = ({ appName }) => {
                     </h1>
                     <div className="ml-auto sm:d-none">
                         <button
-                            className="c-p ai-c bg-transparent cg-2 d-f dim-9 fw-600 jc-c rad-1"
+                            className="c-p ai-c cg-2 d-f dim-9 fw-600 jc-c rad-1"
                             onClick={toggleDropdown}
                         >
                             {showDropdown ? <IoClose className="fs-0" size={30} /> : <IoMenu className="fs-0" size={30} />}

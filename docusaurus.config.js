@@ -58,7 +58,7 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
       colorMode: {
-        defaultMode: 'light',
+        defaultMode: 'dark',
         disableSwitch: true
       },
       announcementBar: {
@@ -67,7 +67,7 @@ const config = {
           'Comunicado: <a target="_blank" rel="noopener noreferrer" href="http://localhost:3000/blog/a-reabertura-da-skylux.29992">A Reabertura Da Skylux</a>',
         backgroundColor: '#fafbfc',
         textColor: '#1c1e21',
-        isCloseable: false,
+        isCloseable: false
       }
     }),
 };
