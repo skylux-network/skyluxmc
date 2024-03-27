@@ -40,7 +40,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/yummacss-social-card.png',
+      image: 'img/skyluxmc-social-card.png',
       navbar: {
         title: 'Skylux MC',
         items: [
