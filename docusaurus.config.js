@@ -70,6 +70,10 @@ const config = {
         isCloseable: false
       }
     }),
+  
+  plugins: [[require.resolve('docusaurus-lunr-search'), {
+    languages: ['en']
+  }]],
 };
 
 export default config;
