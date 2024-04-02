@@ -2,7 +2,7 @@
 slug: bedwars-previa-antecipada.77364
 title: Bedwars - prévia antecipada
 authors: imnesslol
-tags: [comunicado]
+tags: [comunicado, bedwars]
 date: 2020-09-18
 ---
 

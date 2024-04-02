@@ -2,7 +2,7 @@
 slug: falhas-conhecidas.14467
 title: Falhas conhecidas
 authors: imnesslol
-tags: [comunicado]
+tags: [comunicado, skywars]
 date: 2022-05-05
 ---
 

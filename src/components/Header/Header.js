@@ -35,8 +35,8 @@ const Header = ({ appName }) => {
                 </div>
                 <div className={dropdown}>
                     <div className='cg-0 d-f fd-c mt-2 rg-4 sm:ai-c sm:cg-3 sm:fd-r sm:jc-e sm:mt-0 sm:rg-0'>
-                        <Link className='fs-sm fw-600 sm:py-2' to='/docs/intro'>
-                            Docs
+                        <Link className='fs-sm fw-600 sm:py-2' to='/docs/home'>
+                            Início
                         </Link>
                         <Link className='fs-sm fw-600 sm:py-2'>
                             Estado

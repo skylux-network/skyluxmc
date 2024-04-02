@@ -2,7 +2,7 @@
 slug: cosmeticos-melhorias-mais.59588
 title: Cosméticos - Melhorias & Mais
 authors: imnesslol
-tags: [atualização]
+tags: [atualização, skywars]
 date: 2021-08-02
 ---
 

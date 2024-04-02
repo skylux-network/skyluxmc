@@ -2,7 +2,7 @@
 slug: bedwars-melhorias-mais.62946
 title: Bedwars - Melhorias & Mais
 authors: imnesslol
-tags: [atualização]
+tags: [atualização, bedwars]
 date: 2020-10-08
 ---
 

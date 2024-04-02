@@ -2,7 +2,7 @@
 slug: atualizacao-correcoes.85221
 title: Atualização & Correções
 authors: imnesslol
-tags: [atualização]
+tags: [atualização, skywars]
 date: 2022-05-17
 ---
 

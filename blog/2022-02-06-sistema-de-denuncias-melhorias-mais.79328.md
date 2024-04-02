@@ -2,7 +2,7 @@
 slug: sistema-de-denuncias-melhorias-mais.79328
 title: Sistema De Denúncias - Melhorias & Mais
 authors: imnesslol
-tags: [atualização]
+tags: [atualização, skywars]
 date: 2022-02-06
 ---
 

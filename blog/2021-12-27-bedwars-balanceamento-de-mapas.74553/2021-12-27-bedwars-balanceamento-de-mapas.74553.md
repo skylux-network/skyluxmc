@@ -2,7 +2,7 @@
 slug: bedwars-balanceamento-de-mapas.74553
 title: Bedwars - balanceamento de mapas
 authors: imnesslol
-tags: [atualização]
+tags: [atualização, bedwars]
 date: 2021-12-27
 
 ---

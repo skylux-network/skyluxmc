@@ -2,7 +2,7 @@
 slug: skywars-novas-cages-mais.57659
 title: Skywars - novas cages & mais
 authors: imnesslol
-tags: [atualização]
+tags: [atualização, skywars]
 date: 2021-06-29
 ---
 

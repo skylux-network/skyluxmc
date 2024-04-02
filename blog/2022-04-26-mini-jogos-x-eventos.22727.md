@@ -2,7 +2,7 @@
 slug: mini-jogos-x-eventos.22727
 title: Mini jogos x eventos
 authors: imnesslol
-tags: [comunicado]
+tags: [comunicado, bedwars, skywars]
 date: 2022-04-26
 ---
 

@@ -2,7 +2,7 @@
 slug: balanceamento-de-mapas.15566
 title: Balanceamento de mapas
 authors: imnesslol
-tags: [atualização]
+tags: [atualização, bedwars, skywars]
 date: 2021-04-11
 ---
 

@@ -2,7 +2,7 @@
 slug: bedwars-novos-mapas.25849
 title: Bedwars - novos mapas
 authors: imnesslol
-tags: [comunicado]
+tags: [comunicado, bedwars]
 date: 2020-10-23
 ---
 
