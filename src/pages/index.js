@@ -11,15 +11,15 @@ const Index = () => {
     return (
         <div>
             <Header appName={siteConfig.title} />
-            <section className='lg:px-18 pos-r pt-4 px-4'>
-                <div className='lg:py-18 mx-auto py-4 sm:py-16'>
+            <section className='lg:px-18 pos-r pt-4 px-4 ins'>
+                <div className='lg:py-18 mx-auto py-4 sm:py-16' style={{ maxWidth: '49rem' }}>
                     <div className='ta-c'>
-                        <h1 className='fs-6xl'>A Reabertura da Skylux</h1>
+                        <h1 className='fs-6xl'>Bem-vindo à comunidade SkyluxMC</h1>
                         <p className='fs-lg lh-5 mt-2'>
-                            Brevemente...
+                            Somos um servidor de Minecraft com modalidades populares!
                         </p>
                         <div className='cg-6 ins mt-3'>
-                            <Link to='/blog' className='btn-d-cyan-2 fw-600 t-white h:t-white'>Ir para o Início</Link>
+                            <Link to='/blog' className='btn-d-cyan-2 fw-600 t-white h:t-white'>Vamos a isso!</Link>
                         </div>
                     </div>
                 </div>

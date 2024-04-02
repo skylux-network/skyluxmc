@@ -24,7 +24,7 @@ const Header = ({ appName }) => {
         <header className='d-f fw-w py-1 sm:fw-nw sm:jc-s sm:py-0 w-full zi-50'>
             <nav className='lg:px-3 mx-auto pos-r px-1 sm:ai-c sm:d-f sm:jc-b sm:px-2 w-full'>
                 <div className='ai-c d-f jc-b'>
-                    <h1 className='f-none fs-lg fw-600' href='/docs/home'>
+                    <h1 className='f-none fs-lg fw-600' href='/docs/geral'>
                         {appName}
                     </h1>
                     <div className='ml-auto sm:d-none'>

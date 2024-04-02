@@ -48,22 +48,22 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Início',
+            label: 'Geral',
           },
           {
             label: 'Minijogos',
             items: [
               {
                 label: 'BedWars',
-                to: '/docs/bedwars'
+                to: '/docs/wiki/bedwars'
               },
               {
                 label: 'SkyWars',
-                to: '/docs/skywars'
+                to: '/docs/wiki/skywars'
               },
               {
                 label: 'SkyRush',
-                to: '/docs/skyrush'
+                to: '/docs/wiki/skyrush'
               }
             ]
           },
@@ -71,7 +71,13 @@ const config = {
             to: '/blog',
             label: 'Blog',
             position: 'left'
+          },
+          {
+            to: '/blog',
+            label: 'Loja',
+            position: 'right'
           }
+
         ],
       },
       prism: {

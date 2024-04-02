@@ -18,9 +18,9 @@
   --ifm-color-primary-light: rgb(0, 187, 187);
   --ifm-color-primary-lighter: rgb(0, 195, 195);
   --ifm-color-primary-lightest: rgb(0, 221, 221);
-  --ifm-footer-background-color: rgb(9, 9, 11);
-  --ifm-navbar-background-color: rgb(9, 9, 11);
-  --ifm-background-color: rgb(9, 9, 11) !important;
+  --ifm-footer-background-color: rgb(35, 39, 47);
+  --ifm-navbar-background-color: rgb(35, 39, 47);
+  --ifm-background-color: rgb(35, 39, 47) !important;
   --ifm-menu-color-background-active: rgba(0, 170, 170, 0.093);
 }
 
