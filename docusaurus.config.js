@@ -44,33 +44,42 @@ const config = {
       navbar: {
         title: 'Skylux MC',
         items: [
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Desenvolvedor',
-          // },
-          { to: '/blog', label: 'Blogue', position: 'left' },
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Início',
+          },
+          {
+            label: 'Minijogos',
+            items: [
+              {
+                label: 'BedWars',
+                to: '/docs/bedwars'
+              },
+              {
+                label: 'SkyWars',
+                to: '/docs/skywars'
+              },
+              {
+                label: 'SkyRush',
+                to: '/docs/skyrush'
+              }
+            ]
+          },
+          {
+            to: '/blog',
+            label: 'Blog',
+            position: 'left'
+          }
         ],
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-      },
-      colorMode: {
-        defaultMode: 'light',
-        disableSwitch: true
-      },
-      announcementBar: {
-        id: 'support_us',
-        content:
-          'Comunicado: <a target="_blank" rel="noopener noreferrer" href="http://localhost:3000/blog/a-reabertura-da-skylux.29992">A Reabertura Da Skylux</a>',
-        backgroundColor: '#fafbfc',
-        textColor: '#1c1e21',
-        isCloseable: false
       }
     }),
-  
+
   plugins: [[require.resolve('docusaurus-lunr-search'), {
     languages: ['en']
   }]],

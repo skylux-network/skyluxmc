@@ -1,28 +1,30 @@
-import Link from "@docusaurus/Link";
+import Link from '@docusaurus/Link';
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
-import Footer from "../components/Footer/Footer";
-import Header from "../components/Header/Header";
+import Footer from '../components/Footer/Footer';
+import Header from '../components/Header/Header';
 
-import "yummacss/dist/yumma.css";
+import 'yummacss/dist/yumma.css';
 
 const Index = () => {
+    const { siteConfig } = useDocusaurusContext();
     return (
         <div>
-            <Header appName="Skylux MC" />
-            <section class="lg:px-18 pos-r pt-4 px-4">
-                <div class="lg:py-18 mx-auto py-4 sm:py-16">
-                    <div class="ta-c">
-                        <h1 class="fs-6xl">A Reabertura Da Skylux!</h1>
-                        <p class="fs-lg lh-5 mt-2 t-d-lead-1">
-                            Somos um servidor de mini jogos de Minecraft que conta com vários modos de jogo populares!
+            <Header appName={siteConfig.title} />
+            <section className='lg:px-18 pos-r pt-4 px-4'>
+                <div className='lg:py-18 mx-auto py-4 sm:py-16'>
+                    <div className='ta-c'>
+                        <h1 className='fs-6xl'>A Reabertura da Skylux</h1>
+                        <p className='fs-lg lh-5 mt-2'>
+                            Brevemente...
                         </p>
-                        <div class="cg-6 ins mt-3">
-                            <Link to="/blog" class="btn-teal fw-600 t-white h:t-white">Últimas Notícias</Link>
+                        <div className='cg-6 ins mt-3'>
+                            <Link to='/blog' className='btn-d-cyan-2 fw-600 t-white h:t-white'>Ir para o Início</Link>
                         </div>
                     </div>
                 </div>
             </section>
-            <Footer appName="Skylux MC" />
+            <Footer appName={siteConfig.title} />
         </div>
     );
 }
