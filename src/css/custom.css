@@ -24,10 +24,6 @@
   --ifm-menu-color-background-active: rgba(0, 170, 170, 0.093);
 }
 
-a:hover {
-  text-decoration: none;
-}
-
 .menu {
   font-size: 95%;
 }
@@ -48,10 +44,14 @@ a:hover {
   border: none;
 }
 
-[class*="title_node_modules-@docusaurus-theme-classic-lib-theme-BlogPostItem-Header-Title-styles-module"] {
-  text-transform: capitalize;
+.menu__link,
+.menu__link--active,
+.menu__link--sublist {
+  border-radius: 0px 12px 12px 0px;
+  padding: 12px;
 }
 
-[class*="sidebarItemLink_node_modules-@docusaurus-theme-classic-lib-theme-BlogSidebar-Desktop-styles-module"] {
-  text-transform: capitalize;
+.menu__list-item-collapsible,
+.menu__list-item-collapsible--active {
+  border-radius: 0px 12px 12px 0px;
 }

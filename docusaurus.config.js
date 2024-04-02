@@ -22,7 +22,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: './sidebars.js'
         },
         blog: {
           showReadingTime: true,
@@ -32,7 +32,7 @@ const config = {
         },
         theme: {
           customCss: './src/css/custom.css',
-        },
+        }
       }),
     ],
   ],

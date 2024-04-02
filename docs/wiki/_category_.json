@@ -1,5 +1,6 @@
 {
     "label": "Wiki",
     "position": 2,
-    "collapsed": false
+    "collapsed": false,
+    "collapsible": false
 }
