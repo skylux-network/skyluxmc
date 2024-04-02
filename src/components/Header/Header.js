@@ -12,14 +12,6 @@ const Header = ({ appName }) => {
         setShowDropdown(!showDropdown);
     };
 
-    const dropdown = clsx({
-        'fb-full': true,
-        'fg-1': true,
-        'ovf-h': true,
-        'sm:d-b': true,
-        'd-none': !showDropdown
-    });
-
     return (
         <header className='d-f fw-w py-1 sm:fw-nw sm:jc-s sm:py-0 w-full zi-50'>
             <nav className='lg:px-3 mx-auto pos-r px-1 sm:ai-c sm:d-f sm:jc-b sm:px-2 w-full'>
@@ -33,15 +25,21 @@ const Header = ({ appName }) => {
                         </button>
                     </div>
                 </div>
-                <div className={dropdown}>
+                <div className={clsx({
+                    'fb-full': true,
+                    'fg-1': true,
+                    'ovf-h': true,
+                    'sm:d-b': true,
+                    'd-none': !showDropdown
+                })}>
                     <div className='cg-0 d-f fd-c mt-2 rg-4 sm:ai-c sm:cg-3 sm:fd-r sm:jc-e sm:mt-0 sm:rg-0'>
                         <Link className='fs-sm fw-600 sm:py-2' to='/docs/general'>
-                            Início
+                            Geral
                         </Link>
                         <Link className='fs-sm fw-600 sm:py-2'>
                             Estado
                         </Link>
-                        <Link className='fs-sm fw-600 sm:py-2'>
+                        <Link className='fs-sm fw-600 sm:py-2' to='https://discord.gg/t4dK4nH78z'>
                             Suporte
                         </Link>
                     </div>
