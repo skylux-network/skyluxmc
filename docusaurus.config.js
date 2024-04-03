@@ -204,7 +204,12 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-      }
+      },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: true
+      },
     }),
 
   plugins: [[require.resolve('docusaurus-lunr-search'), {
