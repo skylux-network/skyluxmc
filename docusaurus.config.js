@@ -127,6 +127,80 @@ const config = {
           }
         ],
       },
+      footer: {
+        links: [
+          {
+            title: 'Sobre',
+            items: [
+              {
+                label: 'Início',
+                to: '/'
+              },
+              {
+                label: 'Geral',
+                to: '/docs/general'
+              }
+            ],
+          },
+          {
+            title: 'Wiki',
+            items: [
+              {
+                label: 'BedWars',
+                href: '/docs/wiki/bedwars'
+              },
+              {
+                label: 'SkyRush',
+                href: '/docs/wiki/skyrush'
+              },
+              {
+                label: 'SkyWars',
+                href: '/docs/wiki/skywars'
+              }
+            ],
+          },
+          {
+            title: 'Recursos',
+            items: [
+              {
+                label: 'GitHub',
+                href: 'https://github.com/skylux-network'
+              },
+            ],
+          },
+          {
+            title: 'Comunidade',
+            items: [
+              {
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/skyluxmc'
+              },
+              {
+                label: 'YouTube',
+                href: 'https://www.youtube.com/@SkyluxMC'
+              }
+            ],
+          },
+          {
+            title: 'Mais',
+            items: [
+              {
+                label: 'Blog',
+                href: '/blog'
+              },
+              {
+                label: 'Privacidade',
+                href: '#'
+              },
+              {
+                label: 'Termos',
+                href: '#'
+              }
+            ],
+          }
+        ],
+        copyright: `© ${new Date().getFullYear()} Skylux MC | Designed by Renildo`,
+      },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,

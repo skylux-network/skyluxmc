@@ -6,7 +6,9 @@
   --ifm-color-primary-light: rgb(119, 255, 255);
   --ifm-color-primary-lighter: rgb(119, 255, 255);
   --ifm-color-primary-lightest: rgb(119, 255, 255);
-  --ifm-footer-background-color: rgb(255, 255, 255);
+  --ifm-background-color: rgb(247, 247, 247);
+  --ifm-navbar-background-color: rgb(255, 255, 255);
+  --ifm-footer-background-color: rgb(247, 247, 247);
   --ifm-code-font-size: 95%;
 }
 
@@ -22,6 +24,15 @@
   --ifm-navbar-background-color: rgb(35, 39, 47);
   --ifm-background-color: rgb(35, 39, 47) !important;
   --ifm-menu-color-background-active: rgba(0, 170, 170, 0.093);
+
+  .navbar {
+    border-bottom: solid 1px rgb(44, 47, 54);
+  }
+}
+
+.navbar {
+  box-shadow: none;
+  border-bottom: solid 1px rgb(218, 218, 218);
 }
 
 .menu {

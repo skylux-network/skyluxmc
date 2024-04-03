@@ -1,20 +1,17 @@
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-
-import Footer from '../components/Footer/Footer';
-import Header from '../components/Header/Header';
+import Layout from '@theme/Layout';
 
 import 'yummacss/dist/yumma.css';
 
-const Index = () => {
+export default function Index() {
     const { siteConfig } = useDocusaurusContext();
     return (
-        <div>
-            <Header appName={siteConfig.title} />
+        <Layout>
             <section className='lg:px-18 pos-r pt-4 px-4 ins'>
                 <div className='lg:py-18 mx-auto py-4 sm:py-16' style={{ maxWidth: '49rem' }}>
                     <div className='ta-c'>
-                        <h1 className='fs-6xl'>Bem-vindo à Skylux Network</h1>
+                        <h1 className='fs-6xl'>Bem-vindo à {siteConfig.title}</h1>
                         <p className='fs-lg lh-5 mt-2'>
                             Somos um servidor de Minecraft com modalidades populares!
                         </p>
@@ -24,8 +21,6 @@ const Index = () => {
                     </div>
                 </div>
             </section>
-            <Footer appName={siteConfig.title} />
-        </div>
+        </Layout>
     );
 }
-export default Index;
