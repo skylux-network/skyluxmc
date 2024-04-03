@@ -1,7 +1,7 @@
 ---
 title: Geral
-sidebar_position: 1
 description: Sobre a Skylux Network
+sidebar_position: 1
 ---
  
 ## Quem somos?

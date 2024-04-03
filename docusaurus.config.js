@@ -51,23 +51,6 @@ const config = {
             label: 'Geral',
           },
           {
-            label: 'Minijogos',
-            items: [
-              {
-                label: 'BedWars',
-                to: '/docs/wiki/bedwars'
-              },
-              {
-                label: 'SkyWars',
-                to: '/docs/wiki/skywars'
-              },
-              {
-                label: 'SkyRush',
-                to: '/docs/wiki/skyrush'
-              }
-            ]
-          },
-          {
             to: '/blog',
             label: 'Blog',
             position: 'left'
