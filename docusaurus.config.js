@@ -4,7 +4,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Skylux MC',
   tagline: 'Somos um servidor de mini jogos de Minecraft que conta com vários modos de jogo populares!',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon/favicon.ico',
   url: 'https://skyluxmc.vercel.app',
   baseUrl: '/',
   organizationName: 'skylux-network',
@@ -13,8 +13,68 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   i18n: {
     defaultLocale: 'pt',
-    locales: ['pt'],
+    locales: ['pt', 'en']
   },
+  plugins: [
+    [
+      'pwa',
+      {
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: 'img/skyluxmc.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: 'manifest.json',
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: 'rgb(4, 131, 153)',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: '#000',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: 'img/docusaurus.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'mask-icon',
+            href: 'img/docusaurus.png',
+            color: 'rgb(4, 131, 153)',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileImage',
+            content: 'img/docusaurus.png',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileColor',
+            content: '#000',
+          },
+        ],
+      },
+    ],
+  ],
 
   presets: [
     [
@@ -49,6 +109,11 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Geral',
+          },
+          {
+            to: '/leaderboard',
+            label: 'Leaderboard',
+            position: 'left'
           },
           {
             to: '/blog',
