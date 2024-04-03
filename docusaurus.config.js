@@ -103,6 +103,11 @@ const config = {
       image: 'img/skyluxmc-social-card.png',
       navbar: {
         title: 'Skylux MC',
+        logo: {
+          alt: 'SkyluxMC Logo',
+          src: 'img/skyluxmc.png',
+          style: { backgroundColor: '#e3e3e3', borderRadius: '50%' }
+        },
         items: [
           {
             type: 'docSidebar',
@@ -111,7 +116,7 @@ const config = {
             label: 'Geral',
           },
           {
-            to: '/leaderboard',
+            to: 'server/leaderboard',
             label: 'Leaderboard',
             position: 'left'
           },
