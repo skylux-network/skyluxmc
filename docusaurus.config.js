@@ -86,8 +86,8 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          postsPerPage: 3,
-          blogSidebarCount: 5,
+          postsPerPage: 6,
+          blogSidebarCount: 12,
           blogSidebarTitle: 'Últimas Notícias'
         },
         theme: {
