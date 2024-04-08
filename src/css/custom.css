@@ -67,3 +67,13 @@
   box-shadow: none !important;
   border-bottom: solid 1px rgb(44, 47, 54);
 }
+
+ul {
+  list-style: disc;
+  /* or other list-style type like square, circle, decimal, etc. */
+}
+
+ol {
+  list-style: decimal;
+  /* or other list-style type like lower-alpha, upper-roman, etc. */
+}

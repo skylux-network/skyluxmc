@@ -150,10 +150,6 @@ const config = {
                 href: '/docs/wiki/bedwars'
               },
               {
-                label: 'SkyRush',
-                href: '/docs/wiki/skyrush'
-              },
-              {
                 label: 'SkyWars',
                 href: '/docs/wiki/skywars'
               }

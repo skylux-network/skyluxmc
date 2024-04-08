@@ -16,7 +16,7 @@ export default function Index() {
                             Somos um servidor de Minecraft com modalidades populares!
                         </p>
                         <div className='cg-6 ins mt-3'>
-                            <Link to='/blog' className='bg-d-cyan-2 p-1 px-2 rad-4 fw-700 fw-600 t-white h:t-white'>Vamos a isso!</Link>
+                            <Link to='/docs/general' className='bg-d-cyan-2 p-1 px-2 rad-4 fw-700 fw-600 t-white h:t-white'>Vamos a isso!</Link>
                         </div>
                     </div>
                 </div>
