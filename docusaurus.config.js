@@ -188,18 +188,18 @@ const config = {
           {
             tagName: 'link',
             rel: 'apple-touch-icon',
-            href: 'img/docusaurus.png',
+            href: 'img/skyluxmc',
           },
           {
             tagName: 'link',
             rel: 'mask-icon',
-            href: 'img/docusaurus.png',
+            href: 'img/skyluxmc',
             color: 'rgb(4, 131, 153)',
           },
           {
             tagName: 'meta',
             name: 'msapplication-TileImage',
-            content: 'img/docusaurus.png',
+            content: 'img/skyluxmc',
           },
           {
             tagName: 'meta',
