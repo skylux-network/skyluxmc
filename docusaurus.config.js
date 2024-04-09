@@ -44,8 +44,7 @@ const config = {
         title: 'Skylux MC',
         logo: {
           alt: 'SkyluxMC Logo',
-          src: 'img/skyluxmc.png',
-          style: { backgroundColor: '#e3e3e3', borderRadius: '50%' }
+          src: 'img/skyluxmc.png'
         },
         items: [
           {
