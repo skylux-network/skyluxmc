@@ -183,7 +183,7 @@ const config = {
           {
             tagName: 'meta',
             name: 'apple-mobile-web-app-status-bar-style',
-            content: '#000',
+            content: '#fff',
           },
           {
             tagName: 'link',
@@ -204,7 +204,7 @@ const config = {
           {
             tagName: 'meta',
             name: 'msapplication-TileColor',
-            content: '#000',
+            content: '#fff',
           },
         ],
       },
