@@ -35,7 +35,6 @@ const config = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -135,6 +134,7 @@ const config = {
         ],
         copyright: `© ${new Date().getFullYear()} Skylux MC | Designed by Renildo`,
       },
+      themes: ['@docusaurus/theme-search-algolia'],
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
@@ -144,12 +144,14 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: true
       },
+      // algolia: {
+      //   appId: '',
+      //   apiKey: '',
+      //   indexName: '',
+      //   contextualSearch: true
+      // }
     }),
-
   plugins: [
-    [require.resolve('docusaurus-lunr-search'), {
-      languages: ['en']
-    }],
     [
       'pwa',
       {
