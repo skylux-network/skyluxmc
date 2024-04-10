@@ -43,7 +43,7 @@ const config = {
         title: 'Skylux MC',
         logo: {
           alt: 'SkyluxMC Logo',
-          src: 'img/skyluxmc.png'
+          src: 'img/skyluxmc.svg'
         },
         items: [
           {
