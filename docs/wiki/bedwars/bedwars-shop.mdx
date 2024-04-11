@@ -4,26 +4,26 @@ description: A loja de BedWars da Skylux Network
 keywords: [skylux mc, bedwars, bedwars shop]
 ---
 
-import GridList from '@site/src/components/GridList/GridList';
+import CardGrid from '@site/src/components/CardGrid/CardGrid';
 
 Permite comprar cosméticos para personalizar a experiência nas partidas.
 
 ## Opções disponíveis:
 
-<GridList
+<CardGrid
   cardData={[
     {
-      icon: `${require('@site/static/img/avatars/menus/shop/skylux_shop_skins.png').default}`,
+      icon: require('@site/static/img/avatars/menus/shop/skylux_shop_skins.png').default,
       title: 'Aparências',
       description: 'Altera a aparência do teu comerciante nas partidas'
     },
     {
-      icon: `${require('@site/static/img/avatars/menus/shop/skylux_shop_my_cosmetics.png').default}`,
+      icon: require('@site/static/img/avatars/menus/shop/skylux_shop_my_cosmetics.png').default,
       title: 'Meus Cosméticos',
       description: 'Adquire novos efeitos e utilize-os durante as tuas partidas'
     },
     {
-      icon: `${require('@site/static/img/avatars/menus/shop/skylux_shop_death_sounds.png').default}`,
+      icon: require('@site/static/img/avatars/menus/shop/skylux_shop_death_sounds.png').default,
       title: 'Sons de Abate',
       description: 'Assusta os teus inimigos com sons de abate'
     }
