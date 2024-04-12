@@ -3,6 +3,7 @@ title: Geral
 description: Página Inicial
 keywords: [skylux mc, bedwars, skywars]
 ---
+
 import CardGrid from '@site/src/components/CardGrid/CardGrid';
  
 ## Quem somos?
@@ -11,7 +12,23 @@ import CardGrid from '@site/src/components/CardGrid/CardGrid';
 ### Mini-jogos disponíveis:
 No momento a Skylux Network tem apenas dois minijogos:
 
-- [BedWars](/docs/wiki/bedwars)
-- [SkyWars](/docs/wiki/skywars)
-
-![](/img/skylux-network-banner.png)
+<CardGrid
+  cardData={[
+    {
+      icon: require('@site/static/img/avatars/servers/bedwars/skylux_bedwars_solo.png').default,
+      title: 'BedWars',
+      description: 'Projege a tua cama juntamente com a tua equipa e destrói as camas adversárias para venceres!'
+    },
+    {
+      icon: require('@site/static/img/avatars/servers/skyrush/skylux_skyrush.png').default,
+      title: 'SkyRush',
+      description: 'Este mini jogo ainda não foi totalmente desenvolvido. Mais informações brevemente.'
+    },
+    {
+      icon: require('@site/static/img/avatars/servers/skywars/skylux_skywars_solo.png').default,
+      title: 'SkyWars',
+      description: 'Luta pela tua vida em ilhas flutuantes e elimina os teus adversárias com ajuda de Classes e Habilidades!'
+    },
+    
+  ]}
+/>
