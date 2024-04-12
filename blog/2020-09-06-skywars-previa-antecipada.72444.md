@@ -1,6 +1,6 @@
 ---
 slug: skywars-previa-antecipada.72444
-title: Skywars - prévia antecipada
+title: Skywars Prévia Antecipada
 authors: imnesslol
 tags: [comunicado, skywars]
 date: 2020-09-06

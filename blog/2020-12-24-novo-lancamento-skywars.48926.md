@@ -1,6 +1,6 @@
 ---
 slug: novo-lancamento-skywars.48926
-title: Novo lançamento - skywars
+title: Novo Lançamento Skywars
 authors: imnesslol
 tags: [comunicado, skywars]
 date: 2020-12-24

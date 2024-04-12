@@ -1,6 +1,6 @@
 ---
 slug: modificacoes-de-jogo-nao-permitidas.21245
-title: Modificações de jogo não permitidas
+title: Modificações De Jogo Não Permitidas
 authors: imnesslol
 tags: [comunicado]
 date: 2022-04-22

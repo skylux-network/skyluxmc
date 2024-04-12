@@ -1,6 +1,6 @@
 ---
 slug: atualizacao-correcoes.15826
-title: Atualização & Correções
+title: Atualização E Correções
 authors: imnesslol
 tags: [atualização]
 date: 2022-05-12

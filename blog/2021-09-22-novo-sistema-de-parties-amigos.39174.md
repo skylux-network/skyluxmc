@@ -1,6 +1,6 @@
 ---
 slug: novo-sistema-de-parties-amigos.39174
-title: Novo Sistema De Parties & Amigos
+title: Novo Sistema De Parties E Amigos
 authors: imnesslol
 tags: [atualização]
 date: 2021-09-22

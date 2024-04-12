@@ -1,6 +1,6 @@
 ---
 slug: colecionaveis-atualizacao.13027
-title: Colecionáveis - atualização
+title: Colecionáveis Atualização
 authors: imnesslol
 tags: [atualização]
 date: 2020-12-05

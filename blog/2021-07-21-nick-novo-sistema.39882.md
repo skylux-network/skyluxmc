@@ -1,6 +1,6 @@
 ---
 slug: nick-novo-sistema.39882
-title: Nick - Novo Sistema
+title: Nick Novo Sistema
 authors: imnesslol
 tags: [atualização]
 date: 2021-07-21

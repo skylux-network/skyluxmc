@@ -1,6 +1,6 @@
 ---
 slug: sistema-de-amigos-descontinuado.85655
-title: Sistema de amigos descontinuado
+title: Sistema De Amigos Descontinuado
 authors: imnesslol
 tags: [comunicado]
 date: 2021-06-08

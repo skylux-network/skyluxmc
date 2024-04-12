@@ -1,6 +1,6 @@
 ---
 slug: skylux-alpha-lancamento.32876
-title: Skylux alpha - lançamento
+title: Skylux Alpha Lançamento
 authors: imnesslol
 tags: [comunicado]
 date: 2022-05-01

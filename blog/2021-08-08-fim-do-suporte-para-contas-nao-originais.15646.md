@@ -1,6 +1,6 @@
 ---
 slug: fim-do-suporte-para-contas-nao-originais.15646
-title: Fim do suporte para contas não originais
+title: Fim Do Suporte Para Contas Não Originais
 authors: imnesslol
 tags: [comunicado]
 date: 2021-08-08

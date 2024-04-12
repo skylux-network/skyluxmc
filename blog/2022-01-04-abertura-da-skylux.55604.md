@@ -1,6 +1,6 @@
 ---
 slug: abertura-da-skylux.55604
-title: Abertura da skylux
+title: Abertura Da Skylux
 authors: imnesslol
 tags: [comunicado]
 date: 2022-01-04

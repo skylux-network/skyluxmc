@@ -1,6 +1,6 @@
 ---
 slug: atualizacoes-publicas-encerradas.85028
-title: Atualizações públicas encerradas
+title: Atualizações Públicas Encerradas
 authors: imnesslol
 tags: [comunicado]
 date: 2020-08-31

@@ -1,6 +1,6 @@
 ---
 slug: novo-lancamento-bedwars.17108
-title: Novo lançamento - bedwars
+title: Novo Lançamento Bedwars
 authors: imnesslol
 tags: [comunicado]
 date: 2020-10-31

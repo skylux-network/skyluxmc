@@ -1,6 +1,6 @@
 ---
 slug: sincronizacao-de-grupos-entre-servidores.17824
-title: Sincronização de grupos entre servidores
+title: Sincronização De Grupos Entre Servidores
 authors: imnesslol
 tags: [comunicado]
 date: 2021-08-23

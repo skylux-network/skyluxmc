@@ -1,6 +1,6 @@
 ---
 slug: skylux-encerrada.46271
-title: Skylux encerrada
+title: Skylux Encerrada
 authors: imnesslol
 tags: [comunicado]
 date: 2022-05-26

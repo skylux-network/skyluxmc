@@ -1,6 +1,6 @@
 ---
 slug: ola-jogadores.91524
-title: Olá jogadores
+title: Olá Jogadores
 authors: MyTHZ_Pt
 tags: [comunicado]
 date: 2023-12-17

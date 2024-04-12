@@ -1,6 +1,6 @@
 ---
 slug: skylux-store-descontinuada.41830
-title: Skylux store descontinuada
+title: Skylux Store Descontinuada
 authors: imnesslol
 tags: [comunicado]
 date: 2021-03-22

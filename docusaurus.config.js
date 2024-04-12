@@ -25,8 +25,8 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          postsPerPage: 6,
-          blogSidebarCount: 12,
+          postsPerPage: 4,
+          blogSidebarCount: 8,
           blogSidebarTitle: 'Últimas Notícias'
         },
         theme: {
@@ -53,8 +53,8 @@ const config = {
             label: 'Geral',
           },
           {
-            to: 'server/leaderboard',
-            label: 'Leaderboard',
+            to: '/rules',
+            label: 'Regras',
             position: 'left'
           },
           {

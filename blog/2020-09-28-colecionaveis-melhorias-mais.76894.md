@@ -1,6 +1,6 @@
 ---
 slug: colecionaveis-melhorias-mais.76894
-title: Colecionáveis - Melhorias & Mais
+title: Colecionáveis Melhorias Mais
 authors: imnesslol
 tags: [atualização]
 date: 2020-09-28

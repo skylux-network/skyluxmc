@@ -63,17 +63,17 @@
   border-radius: 0px 12px 12px 0px;
 }
 
+pre {
+  background-color: #fefeff;
+  border: 1px solid #ccc;
+}
+
 [data-theme='dark'] .navbar {
   box-shadow: none !important;
   border-bottom: solid 1px rgb(44, 47, 54);
 }
 
-ul {
-  list-style: disc;
-  /* or other list-style type like square, circle, decimal, etc. */
-}
-
-ol {
-  list-style: decimal;
-  /* or other list-style type like lower-alpha, upper-roman, etc. */
+[data-theme='dark'] pre {
+  background-color: #20232a !important;
+  border: 1px solid #1a1c22 !important;  
 }

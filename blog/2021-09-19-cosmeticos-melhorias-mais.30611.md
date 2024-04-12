@@ -1,6 +1,6 @@
 ---
 slug: cosmeticos-melhorias-mais.30611
-title: Cosméticos - Melhorias & Mais
+title: Cosméticos Melhorias Mais
 authors: imnesslol
 tags: [atualização, bedwars, skywars]
 date: 2021-09-19

@@ -1,6 +1,6 @@
 ---
 slug: reintroduzindo-a-skylux-store.20266
-title: Reintroduzindo a skylux store
+title: Reintroduzindo A Skylux Store
 authors: imnesslol
 tags: [comunicado]
 date: 2021-09-08

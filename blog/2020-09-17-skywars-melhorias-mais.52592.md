@@ -1,6 +1,6 @@
 ---
 slug: skywars-melhorias-mais.52592
-title: Skywars - melhorias & mais
+title: Skywars Melhorias Mais
 authors: imnesslol
 tags: [comunicado, skywars]
 date: 2020-09-17

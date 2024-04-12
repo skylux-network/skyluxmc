@@ -1,6 +1,6 @@
 ---
 slug: para-os-traceurs.70419
-title: Para os traceurs
+title: Para Os Traceurs
 authors: imnesslol
 tags: [atualização]
 date: 2021-09-12

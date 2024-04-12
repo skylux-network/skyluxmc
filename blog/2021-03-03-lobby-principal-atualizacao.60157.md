@@ -1,6 +1,6 @@
 ---
 slug: lobby-principal-atualizacao.60157
-title: Lobby Principal - atualização
+title: Lobby Principal Atualização
 authors: imnesslol
 tags: [atualização]
 date: 2021-03-03

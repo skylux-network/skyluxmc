@@ -1,6 +1,6 @@
 ---
 slug: skylux-fechada-para-contas-nao-originais.81338
-title: Skylux fechada para contas não originais
+title: Skylux Fechada Para Contas Não Originais
 authors: imnesslol
 tags: [comunicado]
 date: 2021-01-21

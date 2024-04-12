@@ -1,6 +1,6 @@
 ---
 slug: sistema-de-nick-descontinuado.13808
-title: Sistema de nick descontinuado
+title: Sistema De Nick Descontinuado
 authors: imnesslol
 tags: [comunicado]
 date: 2022-01-05

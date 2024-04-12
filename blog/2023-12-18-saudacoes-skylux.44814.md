@@ -1,6 +1,6 @@
 ---
 slug: saudacoes-skylux.44814
-title: Saudações, Skylux!
+title: Saudações Skylux
 authors: ZHEN0
 tags: [comunicado]
 date: 2023-12-18

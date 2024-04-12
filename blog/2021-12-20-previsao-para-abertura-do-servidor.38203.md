@@ -1,6 +1,6 @@
 ---
 slug: previsao-para-abertura-do-servidor.38203
-title: Previsão para abertura do servidor
+title: Previsão Para Abertura Do Servidor
 authors: imnesslol
 tags: [comunicado]
 date: 2021-12-20

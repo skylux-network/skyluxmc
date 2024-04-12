@@ -1,6 +1,6 @@
 ---
 slug: sistema-de-deteccao-de-hacks.36045
-title: Sistema de detecção de hacks
+title: Sistema De Detecção De Hacks
 authors: imnesslol
 tags: [comunicado]
 date: 2021-03-16

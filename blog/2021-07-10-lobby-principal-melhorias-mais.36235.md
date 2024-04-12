@@ -1,6 +1,6 @@
 ---
 slug: lobby-principal-melhorias-mais.36235
-title: Lobby principal - melhorias & mais
+title: Lobby Principal Melhorias Mais
 authors: imnesslol
 tags: [atualização]
 date: 2021-07-10
