@@ -1,19 +1,30 @@
-.cardGrid {
+.cardElement {
     padding: 18px;
     text-align: center;
     border-radius: 12px;
-    box-shadow: transparent 0px 2px 4px, rgba(0, 0, 0, 0.1) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     background-color: #fefeff;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
 }
 
-.cardGridGrid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+.cardElement a:hover {
+    text-decoration: none;
 }
 
-.cardGridIcon {
+.cardElement:hover {
+    border-color: #a3a3a3;
+}
+
+[data-theme='dark'] .cardElement {
+    background-color: #20232a;
+    border: 1px solid #2d2f33;
+}
+
+[data-theme='dark'] .cardElement:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-color: #424447;
+}
+
+.cardIcon {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -21,27 +32,36 @@
     width: 64px;
 }
 
-.cardGridImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 20rem;
-    width: 20rem;
+[data-theme='dark'] .cardTitle {
+    color: #f6f7f9;
 }
 
-[data-theme='dark'] .cardGrid {
-    background-color: #20232a;
-    border: 1px solid #2d2f33;
+.cardTitle {
+    color: #404756;
+}
+
+[data-theme='dark'] .cardDescription {
+    color: #f6f7f9;
+}
+
+.cardDescription {
+    color: #404756;
+}
+
+.cardGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 @media (max-width: 768px) {
-    .cardGridGrid {
+    .cardGrid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 480px) {
-    .cardGridGrid {
+    .cardGrid {
         grid-template-columns: repeat(1, 1fr);
     }
 }
