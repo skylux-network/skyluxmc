@@ -144,12 +144,12 @@ const config = {
         disableSwitch: false,
         respectPrefersColorScheme: true
       },
-      // algolia: {
-      //   appId: '',
-      //   apiKey: '',
-      //   indexName: '',
-      //   contextualSearch: true
-      // }
+      algolia: {
+        appId: '2R1C6YRJ0V',
+        apiKey: '48be55682a45ee34067eae196edee435',
+        indexName: 'skyluxmc',
+        contextualSearch: true
+      }
     }),
   plugins: [
     [
