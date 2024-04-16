@@ -146,7 +146,7 @@ const config = {
       },
       algolia: {
         appId: '2R1C6YRJ0V',
-        apiKey: '48be55682a45ee34067eae196edee435',
+        apiKey: 'a3ff23e34368259c230d29dd8f1ee271',
         indexName: 'skyluxmc',
         contextualSearch: true
       }
