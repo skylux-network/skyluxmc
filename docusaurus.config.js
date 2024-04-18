@@ -53,6 +53,16 @@ const config = {
             label: 'Geral',
           },
           {
+            to: 'https://survey.typeform.com/to/mQKXun5u',
+            label: 'Formulário',
+            position: 'right'
+          },
+          {
+            to: 'https://theskylux.craftingstore.net/',
+            label: 'Loja',
+            position: 'right'
+          },
+          {
             to: '/rules',
             label: 'Regras',
             position: 'left'
