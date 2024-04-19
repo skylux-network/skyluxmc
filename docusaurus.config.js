@@ -94,11 +94,11 @@ const config = {
             items: [
               {
                 label: 'BedWars',
-                href: '/docs/wiki/bedwars'
+                to: '/docs/wiki/bedwars'
               },
               {
                 label: 'SkyWars',
-                href: '/docs/wiki/skywars'
+                to: '/docs/wiki/skywars'
               }
             ],
           },
@@ -107,7 +107,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/skylux-network'
+                to: 'https://github.com/skylux-network'
               },
             ],
           },
@@ -116,11 +116,11 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/skyluxmc'
+                to: 'https://discordapp.com/invite/skyluxmc'
               },
               {
                 label: 'YouTube',
-                href: 'https://www.youtube.com/@SkyluxMC'
+                to: 'https://www.youtube.com/@SkyluxMC'
               }
             ],
           },
@@ -129,15 +129,15 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                href: '/blog'
+                to: '/blog'
               },
               {
                 label: 'Privacidade',
-                href: '#'
+                to: '#'
               },
               {
                 label: 'Termos',
-                href: '#'
+                to: '#'
               }
             ],
           }
@@ -174,12 +174,12 @@ const config = {
           {
             tagName: 'link',
             rel: 'icon',
-            href: 'img/skyluxmc.png',
+            to: 'img/skyluxmc.png',
           },
           {
             tagName: 'link',
             rel: 'manifest',
-            href: '/manifest.json',
+            to: '/manifest.json',
           },
           {
             tagName: 'meta',
@@ -199,12 +199,12 @@ const config = {
           {
             tagName: 'link',
             rel: 'apple-touch-icon',
-            href: 'img/skyluxmc.png',
+            to: 'img/skyluxmc.png',
           },
           {
             tagName: 'link',
             rel: 'mask-icon',
-            href: 'img/skyluxmc.png',
+            to: 'img/skyluxmc.png',
             color: 'rgb(4, 131, 153)',
           },
           {
